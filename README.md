@@ -5,7 +5,7 @@
 
 3.build your docker image
 
-docker build -t wazlo2004/drupal-nginx:tag .
+docker build -t wazlo2004/nginx-php7:tag .
 
-docker run -ti --name YOURCONTAINERNAME wazlo2004/drupal-nginx:20150216 /bin/bash
+docker run -ti --name YOURCONTAINERNAME wazlo2004/nginx-php7:tag /bin/bash
 
