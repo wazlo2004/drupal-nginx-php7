@@ -54,3 +54,5 @@ ADD  my.cnf    /etc/mysql/my.cnf
 ADD  bash.bashrc  /etc/bash.bashrc
 ADD  1.sh      /
 
+
+CMD ["bash"]
